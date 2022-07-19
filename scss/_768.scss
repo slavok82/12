@@ -1,0 +1,205 @@
+@media (min-width: 768px) {
+  .wrapper {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .navigation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: start;
+
+    a img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  .contacts {
+    margin-left: auto;
+
+    a {
+      font-size: 18px;
+      line-height: 21px;
+    }
+  }
+
+  .burger {
+    margin-left: 80px;
+  }
+
+  .header_title {
+    padding-top: 145px;
+    padding-bottom: 250px;
+
+    h1 {
+      margin-bottom: 26px;
+
+      a {
+        font-size: 40px;
+        line-height: 47px;
+      }
+    }
+
+    h2 {
+      a {
+        font-size: 20px;
+        line-height: 27px;
+      }
+    }
+  }
+
+  .title {
+    width: 569px;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 10px;
+  }
+
+  .choice {
+    padding-bottom: 50px;
+  }
+
+  .slider_picture {
+    gap: 30px;
+  }
+
+  .slider_picture_item {
+    &:first-child {
+      padding-left: 45px;
+    }
+
+    &:nth-child(3) {
+      padding-right: 45px;
+    }
+
+    img {
+      width: 678px;
+      height: 500px;
+    }
+  }
+
+  .border {
+    width: 483px;
+  }
+
+  .little_border {
+    width: 87px;
+  }
+
+
+  .title_practicality h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .text {
+    display: flex;
+    margin-bottom: 40px;
+
+    h3 {
+      font-size: 20px;
+      line-height: 27px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .task {
+    width: 50%;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .decision {
+    width: 50%;
+
+    p {
+      &:first-child {
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  .particular {
+    padding: 40px 0;
+
+    h3 {
+      font-size: 20px;
+      line-height: 27px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .loft_description {
+    margin-bottom: 0;
+  }
+
+  .loft {
+    display: flex;
+    columns: 2;
+    gap: 30px;
+  }
+
+  .images_block {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 95px;
+
+    img {
+      margin: 0;
+      height: 324px;
+      width: 324px;
+    }
+  }
+
+  .images {
+    h2 {
+      font-size: 30px;
+      line-height: 45px;
+    }
+  }
+
+  .similar_projects {
+    gap: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .similar_projects_image {
+    img {
+      width: 324px;
+      height: 324px;
+    }
+  }
+
+  .small_border {
+    width: 158px;
+  }
+
+  .second {
+    margin-bottom: 100px;
+  }
+
+  .application {
+    a {
+      font-size: 40px;
+      line-height: 47px;
+      letter-spacing: 0.06em;
+    }
+  }
+
+  .application a::after {
+    width: 15px;
+    height: 15px;
+    margin-left: 9px;
+    margin-top: 9px;
+  }
+
+  .request {
+    margin-bottom: 70px;
+  }
+}

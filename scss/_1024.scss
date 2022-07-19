@@ -1,0 +1,205 @@
+@media (min-width: 1024px) {
+  .wrapper {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+  nav {
+    display: block;
+    margin-left: 144px;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .navigation {
+    justify-content: space-between;
+  }
+
+  .contacts {
+    margin: 0;
+
+    a {
+      line-height: 21px;
+    }
+  }
+
+  .turn {
+    display: flex;
+    gap: 31px;
+  }
+
+  .description {
+    width: 50%;
+  }
+
+  .list {
+    width: 50%;
+
+    ul {
+      padding: 0;
+    }
+  }
+
+  .title {
+    margin-bottom: 47px;
+  }
+
+  .choice {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+
+  .slider_picture_item {
+    &:first-child {
+      padding: 0;
+    }
+
+    img {
+      width: 930px;
+    }
+
+    &:nth-child(n+2) {
+      display: none;
+    }
+  }
+
+  .slider {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .slider_picture {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .button {
+    display: block;
+    padding: 20px;
+    position: absolute;
+    top: calc(50% - 20px);
+    border: none;
+  }
+
+  .left {
+    left: 50px;
+    background: url(../images/icon_arrow2.svg);
+    background-size: cover;
+  }
+
+  .right {
+    right: 50px;
+    background: url(../images/icon_arrow.svg);
+    background-size: cover;
+  }
+
+  .text {
+    margin-bottom: 94px;
+
+    h3 {
+      margin-bottom: 24px;
+    }
+  }
+
+  .loft_description p {
+    &:first-child {
+      margin-bottom: 12px;
+    }
+  }
+
+  .particular {
+    padding: 100px 0 44px;
+
+    h3 {
+      margin-bottom: 24px;
+    }
+  }
+
+  .images h2 {
+    margin-bottom: 50px;
+  }
+
+  .images_block {
+    padding-bottom: 150px;
+
+    img {
+      height: 350px;
+      width: 450px;
+    }
+  }
+
+  .description {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .similar {
+    h2 {
+      margin-bottom: 50px;
+    }
+  }
+
+  .similar_projects_image {
+    img {
+      width: 290px;
+      height: 270px;
+    }
+
+    &:nth-child(4) {
+      display: none;
+    }
+  }
+
+  .similar_projects {
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .left2 {
+    left: 30px;
+    background: url(../images/icon_arrow2.svg);
+    background-size: cover;
+  }
+
+  .right2 {
+    right: 30px;
+    background: url(../images/icon_arrow.svg);
+    background-size: cover;
+  }
+
+  .click {
+    display: block;
+    padding: 20px;
+    position: absolute;
+    top: calc(50% - 20px);
+    border: none;
+  }
+
+  .similar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .application {
+    padding-top: 40px;
+  }
+
+  .second {
+    margin-bottom: 130px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .request {
+    margin-bottom: 130px;
+  }
+}
